@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Lasur">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>1.5 1.5</size>
+          </plane>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>1.5 1.5</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://lasur/materials/scripts/lasur.material</uri>
+            <uri>model://lasur/materials/textures/</uri>
+            <name>lasur</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

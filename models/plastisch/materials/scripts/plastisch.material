@@ -1,0 +1,18 @@
+    material plastisch
+    {
+      technique
+      {
+        pass
+        {
+          ambient 1 1 1 1
+          diffuse 1.0 1.0 1.0 1.0
+          specular 0.0 0.0 0.0 1.0 0.5
+
+          texture_unit
+          {
+            texture plastisch.jpeg
+            filtering trilinear
+          }
+        }
+      }
+    }
