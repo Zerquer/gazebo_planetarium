@@ -172,10 +172,10 @@
           </surface>
         </collision>
         <visual name='Wall_0_Visual_2'>
-          <pose>0 0 3.5 0 -0 0</pose>
+          <pose>0 0 3.0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>4 0.15 1</size>
+              <size>4 0.15 2</size>
             </box>
           </geometry>
           <material>
@@ -523,10 +523,10 @@
         </link>
       </model>
       <model name='spacesciencestudio'>
-        <pose>-3.5 7.3 2.5 1.578 -0 0</pose>
+        <pose>0 7.3 3 1.578 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-3.5 7.3 2.5 1.578 -0 0</pose>
+          <pose>0 7.3 3 1.578 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -561,7 +561,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>5.79307 -8.542 8.97172 0 0.506001 2.25958</pose>
+        <pose>0 -11.0 7.0 0 0.4 1.57079</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -687,7 +687,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>2.8 1.4</size>
+              <size>4 2</size>
             </plane>
           </geometry>
           <material>
